@@ -43,6 +43,12 @@ def turn(board)
     move(board, index)
     display_board(board)
   else
+<<<<<<< HEAD
     turn(board)
+=======
+    until valid_move?(board, index) == true
+      turn(board)
+    end
+>>>>>>> eb469da4e28ee4e032942746a66a7aecfb69851d
   end
 end
